@@ -1,0 +1,37 @@
+--for creating the tables
+
+CREATE TABLE EMPLOYEE(
+id INT PRIMARY KEY NOT NULL,
+name VARCHAR(50) NOT NULL,
+department VARCHAR(25) NOT NULL,
+leave INT NOT NULL);
+
+CREATE TABLE Exam(
+id INT PRIMARY KEY NOT NULL,
+[Employee id] INT NOT NULL,
+[Exam status] VARCHAR(25) NOT NULL);
+
+--answer of all questions
+
+SELECT department, leave 
+FROM Employee
+WHERE department is "sales" and leave >5 ;
+
+SELECT department, COUNT(*) AS "Number of emloyees"
+FROM Employee WHERE department is "operations";
+
+SELECT department, COUNT(*) AS "Number of Employees"
+FROM Employee
+GROUP BY department ;
+
+SELECT department,SUM(leave) AS "Total leave"
+FROM Employee
+GROUP BY department HAVING SUM(leave)>10 ;
+
+SELECT Employee.id,Employee.name AS ID, Exam.Exam_status AS "Pass/Fail"
+FROM Exam left join Employee on Employee.id=Exam.Id WHERE Exam.Exam_status is "pass" AND Employee.leave<10
+;
+
+SELECT DISTINCT Employee.id,Employee.name
+FROM Exam right join Employee on Employee.id=Exam.Id WHERE Exam.Exam_status is NULL
+GROUP BY Exam.Id;
