@@ -1,0 +1,3 @@
+SELECT department,SUM(leave) AS "Total leave"
+FROM Employee
+GROUP BY department HAVING SUM(leave)>10 ;
