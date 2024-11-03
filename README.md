@@ -16,16 +16,6 @@ This mini-collection includes SQL answers to six key questions, covering topics 
 
 ---
 
-Descriptions:
-1. **Selecting_Data.sql** – Basic query selecting specific columns from a dataset.
-2. **Filtering_Records.sql** – Example of filtering records based on conditions.
-3. **Aggregations_GroupBy.sql** – Demonstrates aggregations with `GROUP BY`.
-4. **Inner_Join_Example.sql** – A solution using `INNER JOIN` to combine data from two tables.
-5. **Left_Join_Example.sql** – Uses `LEFT JOIN` for combining data, handling nulls from one table.
-6. **Subquery_Example.sql** – Example of a subquery to retrieve filtered data within another query.
-
----
-
 ## 🚀 Getting Started
 
 1. **Clone the Repository**
