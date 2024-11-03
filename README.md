@@ -6,7 +6,7 @@ This repository contains a set of **six SQL solutions** completed as part of my 
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
 - [SQL Topics Covered](#sql-topics-covered)
-- [License](#license)
+
 
 ---
 
