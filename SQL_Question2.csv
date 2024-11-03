@@ -1,0 +1,2 @@
+SELECT department, COUNT(*) AS "Number of emloyees"
+FROM Employee WHERE department is "operations";
