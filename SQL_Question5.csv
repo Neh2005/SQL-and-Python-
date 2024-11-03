@@ -1,0 +1,2 @@
+SELECT Employee.id,Employee.name AS ID, Exam.Exam_status AS "Pass/Fail"
+FROM Exam left join Employee on Employee.id=Exam.Id WHERE Exam.Exam_status is "pass" AND Employee.leave<10;
