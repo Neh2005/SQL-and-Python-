@@ -1,0 +1,3 @@
+SELECT DISTINCT Employee.id,Employee.name
+FROM Exam right join Employee on Employee.id=Exam.Id WHERE Exam.Exam_status is NULL
+GROUP BY Exam.Id;
