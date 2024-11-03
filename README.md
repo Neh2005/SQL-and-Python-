@@ -20,7 +20,7 @@ This mini-collection includes SQL answers to six key questions, covering topics 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/sql-solutions.git
+   git clone https://github.com/Neh2005/SQL_Skills_Assessment_Internship.git
    cd sql-solutions
 
 ## 🧠 SQL Topics Covered
