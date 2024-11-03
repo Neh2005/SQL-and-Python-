@@ -1,0 +1,3 @@
+SELECT department, leave 
+FROM Employee
+WHERE department is "sales" and leave >5 ;
