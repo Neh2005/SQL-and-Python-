@@ -11,7 +11,7 @@ id INT PRIMARY KEY NOT NULL,
 [Employee id] INT NOT NULL,
 [Exam status] VARCHAR(25) NOT NULL);
 
---answer of all questions
+--answers
 
 SELECT department, leave 
 FROM Employee
